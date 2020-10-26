@@ -1,0 +1,2 @@
+echo "Compiling client...."
+gcc -g -Wall -lm -D_BSD_SOURCE client.c network.c paramParser.c configuration.c shell.c fileHandler.c md5.c -o client

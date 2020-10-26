@@ -1,0 +1,2 @@
+echo "Compiling server..."
+gcc -g -lm -lpthread -pthread -Wall -D_BSD_SOURCE server.c serverSideConfiguration.c fileHandler.c network.c paramParser.c commandHandler.c md5.c compressor.c -o server

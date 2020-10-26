@@ -1,0 +1,5 @@
+for i in {1..4}
+do
+	echo "Launching client "$i
+	./automate_raspi 5 &
+done

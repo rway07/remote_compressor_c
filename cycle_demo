@@ -1,0 +1,10 @@
+
+
+for j in {1..4}
+do
+	echo "Set" $j
+
+	./demo
+	sleep 240
+	echo "Sleeping for 4 minutes..."
+done

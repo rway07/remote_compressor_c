@@ -1,0 +1,5 @@
+for i in {1..8}
+do
+	echo "Launching client "$i
+	./automate_local 5 &
+done

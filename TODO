@@ -1,0 +1,4 @@
+*) Check if there are functions non thread-safe
+*) Kill active threads at exit (remember pthread_mutex_trylock??)
+*) client problem when server have reached the max number of connections
+*) THREAD SCHEDULER
